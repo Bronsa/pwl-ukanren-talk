@@ -1,0 +1,35 @@
+Example projects:
+
+* barliman
+** prototype "smart editor" that performs real-time program synthesis
+** https://github.com/webyrd/Barliman
+* expresso
+** library for symbolic manipulation of algebraic expressions
+** https://github.com/clojure-numerics/expresso
+#+BEGIN_SRC clojure
+(solve 'blue
+  (ex (= pencils (+ green white blue red)))
+  (ex (= (/ pencils 10) green))
+  (ex (= (/ pencils 2) white))
+  (ex (= (/ pencils 4) blue))
+  (ex (= red 45)))
+#+END_SRC
+* kibit
+** clojure linter using core.logic for rewrite rules
+** https://github.com/jonase/kibit
+#+BEGIN_SRC clojure
+(defrules rules
+  [(not (= . ?args)) (not= . ?args)]
+  ..)
+#+END_SRC
+* odin
+** data transformation an querying engine for CLojure, using a variant of μKanren
+** https://github.com/halgari/odin
+#+BEGIN_SRC clojure
+(def data {:a 1 :b 2 :c 3})
+
+(into {}
+ (o/for-query
+   (o/query data _ _ ?val)
+   [?val (* ?val ?val)]))
+#+END_SRC

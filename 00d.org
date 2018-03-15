@@ -1,0 +1,6 @@
+_μKanren: A Minimal Functional Core for Relational Programming_
+http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf
+
+"We argue, [..], that deeply buried within that 265-line miniKanren implementation is a small, beautiful, relational programming language seeking to get out.
+We believe μKanren is that language.
+By minimizing the operators to those strictly necessary to do relational programming and placing much of the interface directly under the user's control, we have further simplied the implementation and illuminated the role and interrelationships of the remaining components. By making the implementation entirely functional and devoid of macros, heretofore opaque sections of the system's internals are made manifest. What is more, by re-adjudicating what functions are properly the purview of the end user, we develop an implementation that weighs in at 39 lines of Scheme"

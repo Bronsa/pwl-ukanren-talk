@@ -1,0 +1,18 @@
+Nicola Mometto
+
+_Kanren: a family of relational languages_
+
+Kanren = 関連 = relation
+
+relational programming =~ logic programming without impure operators (http://minikanren.org/minikanren-and-prolog.html)
+
+#+BEGIN_SRC scheme
+(run 1 (q)
+  (fresh (x z)
+    (== x z)
+    (== 3 z)
+    (== q x)))
+(3)
+#+END_SRC
+
+# (setq org-src-fontify-natively t)

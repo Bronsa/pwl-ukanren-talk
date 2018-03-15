@@ -1,0 +1,43 @@
+_Kanren: A Logic System with First-Class Relations_
+https://www.cs.indiana.edu/l/www/classes/b521/qs.pdf
+2004, Oleg Kiselyov,  Daniel P. Friedman
+
+_Backtracking, Interleaving, and Terminating Monad Transformers_
+http://okmij.org/ftp/papers/LogicT.pdf
+2005, Oleg Kiselyov, Chung-chieh Shan, Daniel P. Friedman, Amr Sabry
+
+_The Reasoned Schemer_
+https://mitpress.mit.edu/books/reasoned-schemer
+2005, Daniel P. Friedman, William E. Byrd and Oleg Kiselyov
+
+_The taste of logic programming_
+http://okmij.org/ftp/Scheme/misc.html#sokuza-kanren
+2006, Oleg Kiselyov
+
+_alphaKanren: A Fresh Name in Nominal Logic Programming._
+http://webyrd.net/alphamk/alphamk_workshop.pdf
+2007, William E. Byrd,  Daniel P. Friedman
+
+_αleanTAP : A Declarative Theorem Prover for First-Order Classical Logic_
+http://webyrd.net/alphaleantap/alphatap.pdf
+2008, Joseph P. Near, William E. Byrd, Daniel P. Friedman
+
+_Relational Programming in miniKanren: Techniques, Applications, and Implementations._
+https://github.com/webyrd/dissertation-single-spaced
+2009, William E. Byrd
+
+_cKanren: miniKanren with Constraints._
+http://www.schemeworkshop.org/2011/papers/Alvis2011.pdf
+2011, Claire E. Alvis, Jeremiah J. Willcock, Kyle M. Carter, William E. Byrd, Daniel P. Friedman.
+
+_miniKanren, Live and Untagged_
+https://dl.acm.org/citation.cfm?id=2661105
+2012, William E. Byrd, Eric Holk, Daniel P. Friedman
+
+_microKanren: A Minimal Functional Core for Relational Programming_
+http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf
+2013, Jason Hemann, Daniel P. Friedman
+
+_A Framework for Extending microKanren with Constraints_
+https://wflp2016.github.io/pre-proceedings/wflp2016_pre-proceedings_paper_12.pdf
+2016, Jason Hemann, Daniel P. Friedman

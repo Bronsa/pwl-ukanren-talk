@@ -1,0 +1,16 @@
+The Kanren family:
+
+* Kanren
+** original impl in scheme by Oleg Kiselyov/Dan Friedman
+* miniKanren
+** reduced version of Kanren, used in The Reasoned Schemer
+* cKanren
+** miniKanren with constraints (CLP(FD))
+* αKanren
+** miniKanren with nominal logic
+* rKanren
+** miniKanren with guided search (uniform cost) instead of finite breadth-first
+* μKanren
+** smallest, functional Kanren kernel, almost macro-less
+* core.logic
+** miniKanren-like in clojure, supporting tons of optimizations
